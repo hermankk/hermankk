@@ -1,4 +1,4 @@
-body{
+body{25
     color:black;
 }
 #logo{
@@ -20,24 +20,20 @@ nav.navbar{
 }
 
 
-.bio{ 
-width: 25%;
-margin: 200px 20px;
-}
+
 
 .headshot{ 
-    margin: 20px;
-    width: 75%
-    }
-    .hero{display: flex;}
-
-
-    h1{margin: 0 200px 5px 200px;
-
     
-width: 25%;
-height: 41px;
+    width: 30%
+    }
+    .bio{
+    width: 40%;
+    float: right;
+    margin: -35px 800p
 
 
-
+    }
+    .Herman{ margin: -400px 80px 0px 450px;
+    width: 25%;
+   float: center;
     }
