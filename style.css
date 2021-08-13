@@ -1,0 +1,192 @@
+html {
+    background-color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.Navbar {
+    overflow: hidden;
+    /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
+    height: 110px;
+    position: fixed;
+    /* This keeps the navbar at the top of the screen as we scroll */
+    top: 0;
+    /* This ensures no space is displayed above the navbar */
+    width: 100%;
+    /* This makes the navbar span the entire width of the page */
+    z-index: 1;
+    /*This ensures other elements don't display over the navbar */
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.NavbarLink a:hover {
+    background-color: blue;
+  }
+.NavbarLink a {
+    display: inline-block;
+    /* This ensures that other text will be displayed on the same line or row, instead of a new line */
+    color: white;
+    /* This is the font color for text on our navbar */
+    text-decoration: none;
+    /* This gets rid of the underlines under the text on our navbar */
+    /*font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
+    text-align: center;
+    /* This centers the text within its container */
+    position: relative;
+    -webkit-animation: movenavText 5.75s;
+    /* Safari 4.0 - 8.0 */
+    animation: movenavText 5.75s;
+    letter-spacing: .2vw;
+    margin-right: 100px;
+}
+.container {
+    margin: 200px auto;
+    text-align: left !important;
+}
+.profilephoto {
+    border-radius: 10%;
+    width: 100px;
+    height: 200px;
+    /* position: absolute; */
+    /* top: 140px; */
+    /* left: 75px; */
+    font-size: 18px;
+    margin: 40px;
+    object-fit: cover;
+    margin-left: 135px;
+}
+.hero{
+    display: flex;
+}
+.herocontent {
+    font-size: 50px;
+    color: white;
+}
+#myself {
+    font-size: 10px;
+    color: white;
+    text-align: left !important;
+    display: inline;
+    padding-top: -50px;
+}
+#redesigned{
+    text-align: right;
+    font-size: 30px;
+    color: white;
+    margin-left: 700px;
+    margin-top: -200px;
+    position:absolute
+}
+#education {
+    text-align: left;
+    font-size: 95px;
+    color: white;
+    margin-left: 135px;
+}
+div.GiveaSock,
+.USDept{
+    display:flex;
+}
+h4 {
+    text-align: left;
+    font-size: 50px;
+    color:#CB8080;
+    margin-bottom: 200px;
+    margin-top: -50px
+}
+.Selectedprojects h3{
+    color: blue;
+}
+.about_me a {
+    letter-spacing: .2vw;
+    border-radius: 12px;
+    padding: 10px 20px;
+    letter-spacing: right;
+    color:#CB8080;
+    padding: .5 1vw;
+    /* This adds padding around our text */
+    text-decoration: none;
+    margin-left: 50px ;
+    margin-left: 135px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #626D73;
+    bottom: 0%;
+    width: 100%;
+    left: 0%;
+}
+.donation{
+    margin-top: 60px;
+    margin-left: 135px;
+}
+p {
+    text-align: left;
+    font-size: 30px;
+    color: white;
+}
+.Seemorework {
+    text-align: left;
+    padding-top: 100px;
+    margin-left: 50px;
+    margin-top: -100px;
+    margin-bottom: -100px;
+    margin-left: 135px;
+}
+
+.philosophy{
+font-size: 30px;
+text-align: center;
+}
+.social{
+    position: fixed;
+    top:50%;
+    right:0px;
+    transform:translateY(-50%);
+}
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    margin:0px;
+    padding: 0px;
+    line-height:0px;
+    background-color:white;
+    border:1px solid #CBCBCB;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+.social a:hover{
+    background-color:#626D73;
+    transition:all ease 0.5s;
+}
+.social i{
+    font-size:20px;
+    color:#2B2B2B;
+}
+.copyr p{
+    color:#626D73;
+    margin-right: 120px;
+}
+@media screen and (max-width: 768px) {
+    .hero{
+        flex-direction: column;
+        margin-left: 135px;
+    }
+  h1{
+      font-size: 50px;
+     } 
+    h2{
+        font-size:170px
+    }
+div.GiveaSock,
+.USDept{
+    flex-direction: column;
+}
+}
+.time p{
+    position: center;
+}
